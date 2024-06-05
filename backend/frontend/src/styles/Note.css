@@ -1,0 +1,59 @@
+/* Container for each note */
+.note-container {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #000; /* White background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger box shadow */
+  transition: transform 0.2s ease-in-out; /* Add a transition for a hover effect */
+}
+
+.note-container:hover {
+  transform: translateY(-5px); /* Lift the container slightly on hover */
+}
+
+/* Title of the note */
+.note-title {
+  color: #ffffff; /* Darker blue-gray color */
+  font-size: 1.5rem; /* Larger font size */
+  font-weight: 600; /* Semi-bold font weight */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+/* Content of the note */
+.note-content {
+  color: #ffffff; /* Medium gray color */
+  font-size: 1rem; /* Standard font size */
+  line-height: 1.5; /* Increased line height for readability */
+  margin-bottom: 15px; /* Space below the content */
+}
+
+/* Date of the note */
+.note-date {
+  color: #ffffff; /* Light gray color */
+  font-size: 0.85rem; /* Slightly smaller font size */
+  font-style: italic; /* Italic font style */
+  margin-bottom: 20px; /* Space below the date */
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #e74c3c; /* Bright red color */
+  color: white;
+  border: none;
+  padding: 10px 25px; /* Larger padding for a bigger button */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for background and shadow */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.delete-button:active {
+  background-color: #a93226; /* Even darker red on active */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow on active */
+}
